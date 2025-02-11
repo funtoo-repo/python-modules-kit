@@ -9,7 +9,7 @@ DESCRIPTION="Deal PySol FreeCell cards"
 HOMEPAGE="https://github.com/shlomif/pysol_cards/
 https://pypi.org/project/pysol-cards/
 "
-SRC_URI="https://files.pythonhosted.org/packages/cb/8d/967a50fde0877b5353c75e907de8bd2135ad3ad2f754c83092534a2fa4ba/pysol_cards-0.18.0.tar.gz -> pysol_cards-0.18.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a7/9c/b4a1263fddf08b08f27cd7ed0faf596e2494c4293bd9258de0d69625a9ec/pysol_cards-0.18.1.tar.gz -> pysol_cards-0.18.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pysol_cards-0.18.0"
+S="${WORKDIR}/pysol_cards-0.18.1"
