@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A Python wrapper for the MediaInfo library."
 HOMEPAGE="None https://pypi.org/project/pymediainfo/"
-SRC_URI="https://files.pythonhosted.org/packages/5b/d1/2776403be61945d927a03cdf794c58e51b40f8e4e3cb88ee93873b2b41f1/pymediainfo-7.0.0.tar.gz -> pymediainfo-7.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/80/80a6fb21005b81e30f6193d45cba13857df09f5d483e0551fa6fbb3aaeed/pymediainfo-7.0.1.tar.gz -> pymediainfo-7.0.1.tar.gz"
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pymediainfo-7.0.0"
+S="${WORKDIR}/pymediainfo-7.0.1"

@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Fixtures, reusable state for writing clean tests and more."
-HOMEPAGE="https://github.com/testing-cabal/fixtures https://pypi.org/project/fixtures/"
-SRC_URI="https://files.pythonhosted.org/packages/21/79/a63e71f7663b380e0fe74c1673bca12e114884dc7c1a61408e9fcde3db28/fixtures-4.2.2.tar.gz -> fixtures-4.2.2.tar.gz"
+HOMEPAGE="None https://pypi.org/project/fixtures/"
+SRC_URI="https://files.pythonhosted.org/packages/4b/78/562bb86f5805d1f8e9ff2761fd59ee9bc95eaf29bd8890abb1d41097470e/fixtures-4.2.3.tar.gz -> fixtures-4.2.3.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-S="${WORKDIR}/fixtures-4.2.2"
+S="${WORKDIR}/fixtures-4.2.3"
