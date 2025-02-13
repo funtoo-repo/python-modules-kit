@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Fixtures, reusable state for writing clean tests and more."
 HOMEPAGE="None https://pypi.org/project/fixtures/"
-SRC_URI="https://files.pythonhosted.org/packages/4b/78/562bb86f5805d1f8e9ff2761fd59ee9bc95eaf29bd8890abb1d41097470e/fixtures-4.2.3.tar.gz -> fixtures-4.2.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/93/5f8713c22bfdd03c1f018483f8ce473a51b1b90219a70cf41730364fb30f/fixtures-4.2.4.post1.tar.gz -> fixtures-4.2.4.post1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-S="${WORKDIR}/fixtures-4.2.3"
+S="${WORKDIR}/fixtures-4.2.4.post1"
