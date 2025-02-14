@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A friendly Python library for async concurrency and I/O"
 HOMEPAGE="None https://pypi.org/project/trio/"
-SRC_URI="https://files.pythonhosted.org/packages/b3/73/57efab729506a8d4b89814f1e356ec8f3369de0ed4fd7e7616974d09646d/trio-0.28.0.tar.gz -> trio-0.28.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/47/f62e62a1a6f37909aed0bf8f5d5411e06fa03846cfcb64540cd1180ccc9f/trio-0.29.0.tar.gz -> trio-0.29.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-S="${WORKDIR}/trio-0.28.0"
+S="${WORKDIR}/trio-0.29.0"
