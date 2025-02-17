@@ -3,11 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="python library for reading and writing collada documents"
-HOMEPAGE="http://pycollada.readthedocs.org/ https://pypi.org/project/pycollada/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/f1/5e81108414287278a01f1642271d7885e2aebc2bd10e7cf744d8c4cf0955/pycollada-0.8.tar.gz -> pycollada-0.8.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pycollada/"
+SRC_URI="https://files.pythonhosted.org/packages/da/6b/caadd3d65fde5a6a5a33e608183d5a52525a41e2c44f479a99620413a661/pycollada-0.9.tar.gz -> pycollada-0.9.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pycollada-0.8"
+S="${WORKDIR}/pycollada-0.9"
