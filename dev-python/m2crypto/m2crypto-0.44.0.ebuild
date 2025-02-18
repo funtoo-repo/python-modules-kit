@@ -7,7 +7,7 @@ inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="A Python crypto and SSL toolkit"
 HOMEPAGE="https://gitlab.com/m2crypto/m2crypto https://pypi.org/project/M2Crypto/"
-SRC_URI="https://files.pythonhosted.org/packages/ff/1b/4771f0ecfdd9df6752ae5d0cf040545bb3cfe8a504af87e05c9ac4a6a499/m2crypto-0.43.0.tar.gz -> m2crypto-0.43.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/50/4a1b9dfc9a2367b10ba4ae027d5fc9e57b7694a06004932070286d4c25f7/m2crypto-0.44.0.tar.gz -> m2crypto-0.44.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,7 +20,7 @@ IUSE="libressl"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/m2crypto-0.43.0"
+S="${WORKDIR}/m2crypto-0.44.0"
 
 swig_define() {
 	local x
