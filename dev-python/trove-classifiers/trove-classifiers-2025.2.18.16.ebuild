@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Canonical source for classifiers on PyPI (pypi.org)."
+DESCRIPTION="Canonical source for classifiers on PyPI pypi.org."
 HOMEPAGE="https://github.com/pypa/trove-classifiers https://pypi.org/project/trove-classifiers/"
 SRC_URI="https://files.pythonhosted.org/packages/13/8e/15ba2980e2704edecc53d15506a5bfa6efb3b1cadc5e4df7dc277bc199f8/trove_classifiers-2025.2.18.16.tar.gz -> trove_classifiers-2025.2.18.16.tar.gz"
 

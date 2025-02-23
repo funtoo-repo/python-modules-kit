@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A Python bindings generator for C/C++ libraries"
+DESCRIPTION="A Python bindings generator for CC libraries"
 HOMEPAGE="None https://pypi.org/project/sip/"
 SRC_URI="https://files.pythonhosted.org/packages/62/9a/78122735697dbfc6c1db363627309eb0da7e44d8c05ba017b08666530586/sip-6.10.0.tar.gz -> sip-6.10.0.tar.gz"
 

@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
-DESCRIPTION="Fast, Extensible Progress Meter"
+DESCRIPTION="Fast Extensible Progress Meter"
 HOMEPAGE="None https://pypi.org/project/tqdm/"
 SRC_URI="https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz -> tqdm-4.67.1.tar.gz"
 

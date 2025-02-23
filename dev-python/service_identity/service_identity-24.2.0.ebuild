@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION="Service identity verification for pyOpenSSL & cryptography."
+DESCRIPTION="Service identity verification for pyOpenSSL  cryptography."
 HOMEPAGE="None https://pypi.org/project/service-identity/"
 SRC_URI="https://files.pythonhosted.org/packages/07/a5/dfc752b979067947261dbbf2543470c58efe735c3c1301dd870ef27830ee/service_identity-24.2.0.tar.gz -> service_identity-24.2.0.tar.gz"
 

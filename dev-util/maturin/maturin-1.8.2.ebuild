@@ -371,7 +371,7 @@ zopfli-0.8.1
 
 inherit cargo distutils-r1
 
-DESCRIPTION="Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
+DESCRIPTION="Build and publish crates with pyo3 cffi and uniffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
 SRC_URI="https://crates.io/api/v1/crates/adler2/2.0.0/download -> adler2-2.0.0.crate
 https://crates.io/api/v1/crates/ahash/0.8.11/download -> ahash-0.8.11.crate

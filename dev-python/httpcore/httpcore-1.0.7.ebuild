@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION="A minimal low-level HTTP client."
+DESCRIPTION="A minimal lowlevel HTTP client."
 HOMEPAGE="None https://pypi.org/project/httpcore/"
 SRC_URI="https://files.pythonhosted.org/packages/6a/41/d7d0a89eb493922c37d343b607bc1b5da7f5be7e383740b4753ad8943e90/httpcore-1.0.7.tar.gz -> httpcore-1.0.7.tar.gz"
 

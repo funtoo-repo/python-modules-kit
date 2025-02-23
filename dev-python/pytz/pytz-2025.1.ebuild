@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
-DESCRIPTION="World timezone definitions, modern and historical"
+DESCRIPTION="World timezone definitions modern and historical"
 HOMEPAGE="http://pythonhosted.org/pytz https://pypi.org/project/pytz/"
 SRC_URI="https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz -> pytz-2025.1.tar.gz"
 

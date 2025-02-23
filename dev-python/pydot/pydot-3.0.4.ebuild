@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
-DESCRIPTION="Python interface to Graphviz's Dot"
+DESCRIPTION="Python interface to Graphvizs Dot"
 HOMEPAGE="None https://pypi.org/project/pydot/"
 SRC_URI="https://files.pythonhosted.org/packages/66/dd/e0e6a4fb84c22050f6a9701ad9fd6a67ef82faa7ba97b97eb6fdc6b49b34/pydot-3.0.4.tar.gz -> pydot-3.0.4.tar.gz"
 

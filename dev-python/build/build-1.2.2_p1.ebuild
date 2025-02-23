@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A simple, correct Python build frontend"
+DESCRIPTION="A simple correct Python build frontend"
 HOMEPAGE="None https://pypi.org/project/build/"
 SRC_URI="https://files.pythonhosted.org/packages/7d/46/aeab111f8e06793e4f0e421fcad593d547fb8313b50990f31681ee2fb1ad/build-1.2.2.post1.tar.gz -> build-1.2.2.post1.tar.gz"
 

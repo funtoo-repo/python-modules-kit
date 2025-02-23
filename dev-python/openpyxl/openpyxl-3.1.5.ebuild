@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A Python library to read/write Excel 2010 xlsx/xlsm files"
+DESCRIPTION="A Python library to readwrite Excel 2010 xlsxxlsm files"
 HOMEPAGE="https://openpyxl.readthedocs.io/
 https://pypi.org/project/openpyxl/
 "

@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION="Python driver for MongoDB <http://www.mongodb.org>"
+DESCRIPTION="Python driver for MongoDB httpwww.mongodb.org"
 HOMEPAGE="None https://pypi.org/project/pymongo/"
 SRC_URI="https://files.pythonhosted.org/packages/c5/18/63fd06769a2f47842c374fc5d937445fe8dc2f31b3a859c8bf7df73daa14/pymongo-4.11.1.tar.gz -> pymongo-4.11.1.tar.gz"
 
