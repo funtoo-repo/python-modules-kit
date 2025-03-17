@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/67/1e/0f8f285a65e2e64f2f0c4accc
 
 DEPEND=""
 RDEPEND="
-	sys-fs/fuse:3
+	sys-fs/fuse
 	dev-python/trio[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
