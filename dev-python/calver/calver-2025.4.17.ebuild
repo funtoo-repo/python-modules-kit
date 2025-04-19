@@ -7,14 +7,14 @@ inherit distutils-r1
 
 DESCRIPTION="Setuptools extension for CalVer package versions"
 HOMEPAGE="None https://pypi.org/project/calver/"
-SRC_URI="https://files.pythonhosted.org/packages/ee/28/c6c465ab2ce1882eb1ba8e0f173c1613f509eba3c60eb916fcb9b704238c/calver-2025.4.2.tar.gz -> calver-2025.4.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4f/1e/6cdde2a9cbd1bd2fad6fab0d005b1c10b4161823656ddb19ccc3adcbd5af/calver-2025.4.17.tar.gz -> calver-2025.4.17.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/calver-2025.4.2"
+S="${WORKDIR}/calver-2025.4.17"
 
 src_prepare() {
 	sed -i -e 's/license = "Apache-2.0"/license = { text = "Apache-2.0" }/' pyproject.toml || die

@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Self-service finite-state machines for the programmer on the go"
 HOMEPAGE="None https://pypi.org/project/Automat/"
-SRC_URI="https://files.pythonhosted.org/packages/8d/2d/ede4ad7fc34ab4482389fa3369d304f2fa22e50770af706678f6a332fa82/automat-24.8.1.tar.gz -> automat-24.8.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/0f/d40bbe294bbf004d436a8bcbcfaadca8b5140d39ad0ad3d73d1a8ba15f14/automat-25.4.16.tar.gz -> automat-25.4.16.tar.gz"
 
 DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
@@ -19,7 +19,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/automat-24.8.1"
+S="${WORKDIR}/automat-25.4.16"
 
 pkg_postinst() {
 	einfo "For additional visualization functionality install these optional dependencies"
