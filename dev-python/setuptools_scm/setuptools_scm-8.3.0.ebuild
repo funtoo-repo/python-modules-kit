@@ -11,7 +11,7 @@ HOMEPAGE="None https://pypi.org/project/setuptools-scm/"
 SRC_URI="https://files.pythonhosted.org/packages/ae/c1/0eb89ad8a0aa7033bbd0cc9fb44a0090c20edaba495f291e31be010e6ec1/setuptools_scm-8.3.0.tar.gz -> setuptools_scm-8.3.0.tar.gz"
 
 DEPEND="
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
 	dev-python/packaging[${PYTHON_USEDEP}]
