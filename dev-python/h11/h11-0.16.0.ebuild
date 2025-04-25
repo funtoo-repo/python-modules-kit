@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="A purePython bringyourownIO implementation of HTTP1.1"
 HOMEPAGE="https://github.com/python-hyper/h11 https://pypi.org/project/h11/"
-SRC_URI="https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz -> h11-0.14.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz -> h11-0.16.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/h11-0.14.0"
+S="${WORKDIR}/h11-0.16.0"
