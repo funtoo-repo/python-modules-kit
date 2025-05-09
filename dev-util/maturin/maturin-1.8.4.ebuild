@@ -36,7 +36,7 @@ cargo-config2-0.1.26
 cargo-options-0.7.4
 cargo-platform-0.1.8
 cargo-xwin-0.18.4
-cargo-zigbuild-0.19.7
+cargo-zigbuild-0.20.0
 cargo_metadata-0.19.0
 cbindgen-0.28.0
 cc-1.2.16
@@ -62,7 +62,7 @@ cpufeatures-0.2.12
 crc-3.2.1
 crc-catalog-2.4.0
 crc32fast-1.4.2
-crossbeam-channel-0.5.13
+crossbeam-channel-0.5.15
 crossbeam-deque-0.8.5
 crossbeam-epoch-0.9.18
 crossbeam-utils-0.8.20
@@ -171,10 +171,10 @@ nu-ansi-term-0.46.0
 num-conv-0.1.0
 number_prefix-0.4.0
 once_cell-1.20.2
-openssl-0.10.70
+openssl-0.10.72
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-sys-0.9.105
+openssl-sys-0.9.107
 option-ext-0.2.0
 os_pipe-1.2.0
 overload-0.1.1
@@ -364,7 +364,7 @@ zerofrom-derive-0.1.5
 zeroize-1.8.1
 zerovec-0.10.4
 zerovec-derive-0.10.3
-zip-2.2.3
+zip-2.3.0
 zopfli-0.8.1
 "
 
@@ -404,7 +404,7 @@ https://crates.io/api/v1/crates/cargo-config2/0.1.26/download -> cargo-config2-0
 https://crates.io/api/v1/crates/cargo-options/0.7.4/download -> cargo-options-0.7.4.crate
 https://crates.io/api/v1/crates/cargo-platform/0.1.8/download -> cargo-platform-0.1.8.crate
 https://crates.io/api/v1/crates/cargo-xwin/0.18.4/download -> cargo-xwin-0.18.4.crate
-https://crates.io/api/v1/crates/cargo-zigbuild/0.19.7/download -> cargo-zigbuild-0.19.7.crate
+https://crates.io/api/v1/crates/cargo-zigbuild/0.20.0/download -> cargo-zigbuild-0.20.0.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.19.0/download -> cargo_metadata-0.19.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
 https://crates.io/api/v1/crates/cc/1.2.16/download -> cc-1.2.16.crate
@@ -430,7 +430,7 @@ https://crates.io/api/v1/crates/cpufeatures/0.2.12/download -> cpufeatures-0.2.1
 https://crates.io/api/v1/crates/crc/3.2.1/download -> crc-3.2.1.crate
 https://crates.io/api/v1/crates/crc-catalog/2.4.0/download -> crc-catalog-2.4.0.crate
 https://crates.io/api/v1/crates/crc32fast/1.4.2/download -> crc32fast-1.4.2.crate
-https://crates.io/api/v1/crates/crossbeam-channel/0.5.13/download -> crossbeam-channel-0.5.13.crate
+https://crates.io/api/v1/crates/crossbeam-channel/0.5.15/download -> crossbeam-channel-0.5.15.crate
 https://crates.io/api/v1/crates/crossbeam-deque/0.8.5/download -> crossbeam-deque-0.8.5.crate
 https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download -> crossbeam-epoch-0.9.18.crate
 https://crates.io/api/v1/crates/crossbeam-utils/0.8.20/download -> crossbeam-utils-0.8.20.crate
@@ -539,10 +539,10 @@ https://crates.io/api/v1/crates/nu-ansi-term/0.46.0/download -> nu-ansi-term-0.4
 https://crates.io/api/v1/crates/num-conv/0.1.0/download -> num-conv-0.1.0.crate
 https://crates.io/api/v1/crates/number_prefix/0.4.0/download -> number_prefix-0.4.0.crate
 https://crates.io/api/v1/crates/once_cell/1.20.2/download -> once_cell-1.20.2.crate
-https://crates.io/api/v1/crates/openssl/0.10.70/download -> openssl-0.10.70.crate
+https://crates.io/api/v1/crates/openssl/0.10.72/download -> openssl-0.10.72.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.5/download -> openssl-probe-0.1.5.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.105/download -> openssl-sys-0.9.105.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.107/download -> openssl-sys-0.9.107.crate
 https://crates.io/api/v1/crates/option-ext/0.2.0/download -> option-ext-0.2.0.crate
 https://crates.io/api/v1/crates/os_pipe/1.2.0/download -> os_pipe-1.2.0.crate
 https://crates.io/api/v1/crates/overload/0.1.1/download -> overload-0.1.1.crate
@@ -732,9 +732,9 @@ https://crates.io/api/v1/crates/zerofrom-derive/0.1.5/download -> zerofrom-deriv
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zerovec/0.10.4/download -> zerovec-0.10.4.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.10.3/download -> zerovec-derive-0.10.3.crate
-https://crates.io/api/v1/crates/zip/2.2.3/download -> zip-2.2.3.crate
+https://crates.io/api/v1/crates/zip/2.3.0/download -> zip-2.3.0.crate
 https://crates.io/api/v1/crates/zopfli/0.8.1/download -> zopfli-0.8.1.crate
-https://files.pythonhosted.org/packages/30/0b/3fd746cf5cfa3c8d7e20ea08c0dbc2c2c765ae051d0fc43d808a38bc9548/maturin-1.8.3.tar.gz -> maturin-1.8.3.tar.gz
+https://files.pythonhosted.org/packages/e0/23/bc3cfe0537e82a9f6d5aeef79066df5179c27e64bb536917d7b3fcec1232/maturin-1.8.4.tar.gz -> maturin-1.8.4.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
@@ -743,4 +743,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.8.3"
+S="${WORKDIR}/maturin-1.8.4"
