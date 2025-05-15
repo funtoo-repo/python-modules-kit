@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="plugin and hook calling mechanisms for python"
-HOMEPAGE="https://github.com/pytest-dev/pluggy https://pypi.org/project/pluggy/"
-SRC_URI="https://files.pythonhosted.org/packages/96/2d/02d4312c973c6050a18b314a5ad0b3210edb65a906f868e31c111dede4a6/pluggy-1.5.0.tar.gz -> pluggy-1.5.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pluggy/"
+SRC_URI="https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz -> pluggy-1.6.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="next"
-S="${WORKDIR}/pluggy-1.5.0"
+S="${WORKDIR}/pluggy-1.6.0"
