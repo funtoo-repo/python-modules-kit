@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A Python to C compiler"
 HOMEPAGE="https://cython.org/ https://pypi.org/project/Cython/"
-SRC_URI="https://files.pythonhosted.org/packages/cf/f7/db37a613aec5abcd51c8000a386a701ac32e94659aa03fa69c3e5c19b149/cython-3.1.0.tar.gz -> cython-3.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5b/d3/bb000603e46144db2e5055219bbddcf7ab3b10012fcb342695694fb88141/cython-3.1.1.tar.gz -> cython-3.1.1.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/cython-3.1.0"
+S="${WORKDIR}/cython-3.1.1"
