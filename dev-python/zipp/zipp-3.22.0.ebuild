@@ -20,3 +20,8 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/zipp-3.22.0"
+
+src_prepare() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	distutils-r1_src_prepare
+}
