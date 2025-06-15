@@ -1,0 +1,18 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
+inherit distutils-r1
+
+DESCRIPTION="A Python to C compiler"
+HOMEPAGE="https://cython.org/ https://pypi.org/project/Cython/"
+SRC_URI="https://files.pythonhosted.org/packages/18/40/7b17cd866158238db704965da1b5849af261dbad393ea3ac966f934b2d39/cython-3.1.2.tar.gz -> cython-3.1.2.tar.gz"
+
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+IUSE=""
+SLOT="0"
+LICENSE="Apache-2.0"
+KEYWORDS="*"
+S="${WORKDIR}/cython-3.1.2"
