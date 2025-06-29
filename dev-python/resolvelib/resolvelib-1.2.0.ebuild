@@ -10,14 +10,14 @@ inherit distutils-r1
 
 DESCRIPTION="Resolve abstract dependencies into concrete ones"
 HOMEPAGE="https://github.com/sarugaku/resolvelib/"
-SRC_URI="https://github.com/sarugaku/resolvelib/tarball/f7d1404e6a9b8edf073ee5c47d9c07ee62021de1 -> resolvelib-1.1.0-f7d1404.tar.gz"
+SRC_URI="https://github.com/sarugaku/resolvelib/tarball/50f221ba803f6c127b6e20ff2c9a4470524e1239 -> resolvelib-1.2.0-50f221b.tar.gz"
 LICENSE="ISC"
 
 SLOT="0"
 KEYWORDS="*"
 IUSE="test"
 
-S="${WORKDIR}/sarugaku-resolvelib-f7d1404"
+S="${WORKDIR}/sarugaku-resolvelib-50f221b"
 
 BDEPEND="
 	test? (

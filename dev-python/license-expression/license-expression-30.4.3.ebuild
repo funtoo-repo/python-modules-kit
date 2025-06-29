@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="licenseexpression is a comprehensive utility library to parse compare simplify and normalize license expressions such as SPDX license expressions using boolean logic."
 HOMEPAGE="https://github.com/aboutcode-org/license-expression https://pypi.org/project/license-expression/"
-SRC_URI="https://files.pythonhosted.org/packages/74/6f/8709031ea6e0573e6075d24ea34507b0eb32f83f10e1420f2e34606bf0da/license_expression-30.4.1.tar.gz -> license_expression-30.4.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/79/efb4637d56dcd265cb9329ab502be0e01f4daed80caffdc5065b4b7956df/license_expression-30.4.3.tar.gz -> license_expression-30.4.3.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/license_expression-30.4.1"
+S="${WORKDIR}/license_expression-30.4.3"
