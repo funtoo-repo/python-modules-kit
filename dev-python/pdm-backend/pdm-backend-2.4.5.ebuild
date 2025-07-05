@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="The build backend used by PDM that supports latest packaging standards"
 HOMEPAGE="None https://pypi.org/project/pdm-backend/"
-SRC_URI="https://files.pythonhosted.org/packages/8d/fc/8efb0e9060167081bcbcddeb5d9e95cee6c762391c42b0c970373a7082ff/pdm_backend-2.4.4.tar.gz -> pdm_backend-2.4.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/f2/59135ddc68636a33179a37c002abcb162a9811c9ce14469258e486bec012/pdm_backend-2.4.5.tar.gz -> pdm_backend-2.4.5.tar.gz"
 
 DEPEND="
 	dev-python/editables[${PYTHON_USEDEP}]
@@ -24,7 +24,7 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pdm_backend-2.4.4"
+S="${WORKDIR}/pdm_backend-2.4.5"
 
 src_prepare() {
 		rm -r src/pdm/backend/_vendor || die
