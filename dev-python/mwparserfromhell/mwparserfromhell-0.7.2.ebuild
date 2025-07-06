@@ -16,3 +16,9 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/mwparserfromhell-0.7.2"
+
+src_prepare() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	sed -i -e '/license-files/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}

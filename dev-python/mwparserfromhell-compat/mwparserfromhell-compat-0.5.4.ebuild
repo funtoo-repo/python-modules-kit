@@ -17,6 +17,13 @@ LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/mwparserfromhell-0.5.4"
 
+src_prepare() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	sed -i -e '/license-files/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
+
+
 post_src_install() {
 	rm -rf ${D}/usr/bin
 }
