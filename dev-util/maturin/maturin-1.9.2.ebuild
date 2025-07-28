@@ -762,3 +762,9 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/maturin-1.9.2"
+
+src_prepare() {
+	sed -i -e 's/license = "MIT OR Apache-2.0"/license = { text = "MIT OR Apache-2.0" }/' pyproject.toml || die
+	sed -i -e '/license-files = \[/,/]/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
