@@ -15,7 +15,7 @@ RDEPEND="!<dev-python/pip-21.0 "
 IUSE="vanilla"
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pip-20.3.4"
 
