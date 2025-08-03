@@ -20,6 +20,9 @@ KEYWORDS="*"
 S="${WORKDIR}/pip-25.2"
 
 python_prepare_all() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	sed -i -e '/license-files = \[/,/]/d' pyproject.toml || die
+
 	if ! use vanilla; then
 		# Running pip without --target, --prefix, --root, or --user will result
 		# in packages being installed systemwide. This has a tendency to break
