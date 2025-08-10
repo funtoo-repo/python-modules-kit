@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="SSH2 protocol library"
-HOMEPAGE="https://paramiko.org https://pypi.org/project/paramiko/"
+HOMEPAGE="None https://pypi.org/project/paramiko/"
 SRC_URI="https://files.pythonhosted.org/packages/00/bd/1a2c7ed920af44d4c07a58d6cc3da322138f3a18713b6ee7fb953f78d8dc/paramiko-2.9.5.tar.gz -> paramiko-2.9.5.tar.gz"
 
 DEPEND=""
@@ -22,6 +22,13 @@ SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
 S="${WORKDIR}/paramiko-2.9.5"
+
+src_prepare() {
+	sed -i -e 's/license = "LGPL-2.1"/license = { text = "LGPL-2.1" }/' pyproject.toml || die
+	sed -i -e '/license-files/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
+
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
