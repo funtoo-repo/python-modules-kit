@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="PurePython HTTP2 protocol implementation"
 HOMEPAGE="None https://pypi.org/project/h2/"
-SRC_URI="https://files.pythonhosted.org/packages/1b/38/d7f80fd13e6582fb8e0df8c9a653dcc02b03ca34f4d72f34869298c5baf8/h2-4.2.0.tar.gz -> h2-4.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/17/afa56379f94ad0fe8defd37d6eb3f89a25404ffc71d4d848893d270325fc/h2-4.3.0.tar.gz -> h2-4.3.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/h2-4.2.0"
+S="${WORKDIR}/h2-4.3.0"
