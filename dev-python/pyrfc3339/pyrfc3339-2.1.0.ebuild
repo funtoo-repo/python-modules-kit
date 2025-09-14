@@ -18,3 +18,9 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pyrfc3339-2.1.0"
+
+src_prepare() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	sed -i -e '/license-files = \[/,/]/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
