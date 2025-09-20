@@ -90,7 +90,7 @@ DEPEND="
 			>=virtual/rust-1.37.0
 		)
 	)
-	$(python_gen_cond_dep '>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}] >=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]' -3)"
+	$(python_gen_cond_dep '>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}] >=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}] dev-python/pycparser[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
