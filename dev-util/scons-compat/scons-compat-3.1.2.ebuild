@@ -21,6 +21,13 @@ S="${WORKDIR}/scons-3.1.2"
 if [ "$PN"  == 'scons-compat' ]; then
 	S="${WORKDIR}/scons-${PV}"
 fi
+
+src_prepare() {
+	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
+	sed -i -e '/license-files = \[/,/]/d' pyproject.toml || die
+	distutils-r1_src_prepare
+}
+
 python_install() {
 	distutils-r1_python_install
 	rm "${D}"/usr/*.1
