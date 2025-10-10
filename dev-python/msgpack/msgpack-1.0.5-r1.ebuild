@@ -24,5 +24,8 @@ python_prepare_all() {
 	if ! use native-extensions ; then
 		sed -i -e "/have_cython/s:True:False:" setup.py || die
 	fi
+ 
+	sed -i -e 's/license = "Apache-2.0"/license = { text = "Apache-2.0" }/' pyproject.toml || die
+
 	distutils-r1_python_prepare_all
 }
