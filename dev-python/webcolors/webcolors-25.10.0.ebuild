@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A library for working with the color formats defined by HTML and CSS."
 HOMEPAGE="None https://pypi.org/project/webcolors/"
-SRC_URI="https://files.pythonhosted.org/packages/7b/29/061ec845fb58521848f3739e466efd8250b4b7b98c1b6c5bf4d40b419b7e/webcolors-24.11.1.tar.gz -> webcolors-24.11.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/7a/eb316761ec35664ea5174709a68bbd3389de60d4a1ebab8808bfc264ed67/webcolors-25.10.0.tar.gz -> webcolors-25.10.0.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/webcolors-24.11.1"
+S="${WORKDIR}/webcolors-25.10.0"
