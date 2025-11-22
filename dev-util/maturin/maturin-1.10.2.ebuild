@@ -800,7 +800,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.2/download -> zopfli-0.8.2.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/e9/4c/dd1dbc35780fdc5c51ccb0d08e5ece8e63a5ca82f6c9189fcbb031fc589c/maturin-1.10.1.tar.gz -> maturin-1.10.1.tar.gz
+https://files.pythonhosted.org/packages/02/44/c593afce7d418ae6016b955c978055232359ad28c707a9ac6643fc60512d/maturin-1.10.2.tar.gz -> maturin-1.10.2.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
@@ -809,7 +809,7 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.10.1"
+S="${WORKDIR}/maturin-1.10.2"
 
 src_prepare() {
 	sed -i -e 's/license = "MIT OR Apache-2.0"/license = { text = "MIT OR Apache-2.0" }/' pyproject.toml || die

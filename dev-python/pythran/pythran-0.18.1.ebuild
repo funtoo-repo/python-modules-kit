@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Ahead of Time compiler for numeric kernels"
 HOMEPAGE="None https://pypi.org/project/pythran/"
-SRC_URI="https://files.pythonhosted.org/packages/94/0a/95a72f09f25dae48f41e367959075ed4c7a0ff02dd3f54eec111501d648a/pythran-0.18.0.tar.gz -> pythran-0.18.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/84/17c4c44a24f5ec709991e603e601bf316d09c4fe915fbe348c689dede998/pythran-0.18.1.tar.gz -> pythran-0.18.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,6 +18,6 @@ RDEPEND="
 	dev-python/ply[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pythran-0.18.0"
+S="${WORKDIR}/pythran-0.18.1"

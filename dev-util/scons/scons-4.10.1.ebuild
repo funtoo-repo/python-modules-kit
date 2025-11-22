@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Extensible Python-based build utility"
 HOMEPAGE="https://www.scons.org/"
-SRC_URI="https://files.pythonhosted.org/packages/91/ff/2c0bab6e1fcd837c52afd99a37e0cc16f2e1c970d313c3d4bc10b5c047f2/scons-4.10.0.tar.gz -> scons-4.10.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/c9/2f430bb39e4eccba32ce8008df4a3206df651276422204e177a09e12b30b/scons-4.10.1.tar.gz -> scons-4.10.1.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-util/scons-compat )"
@@ -17,7 +17,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/scons-4.10.0"
+S="${WORKDIR}/scons-4.10.1"
 
 if [ "$PN"  == 'scons-compat' ]; then
 	S="${WORKDIR}/scons-${PV}"
