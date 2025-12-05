@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Highlevel concurrency and networking framework on top of asyncio or Trio"
 HOMEPAGE="None https://pypi.org/project/anyio/"
-SRC_URI="https://files.pythonhosted.org/packages/c6/78/7d432127c41b50bccba979505f272c16cbcadcc33645d5fa3a738110ae75/anyio-4.11.0.tar.gz -> anyio-4.11.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/ce/8a777047513153587e5434fd752e89334ac33e379aa3497db860eeb60377/anyio-4.12.0.tar.gz -> anyio-4.12.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,7 +20,7 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/anyio-4.11.0"
+S="${WORKDIR}/anyio-4.12.0"
 
 src_prepare() {
 	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/' pyproject.toml || die
